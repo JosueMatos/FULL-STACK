@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+body{
+    background-color: #232830;
+}
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 8% 0% 8%;
+}
+header .writing a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header .navi .navilink{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+header .banner{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   margin-bottom: 100px;
+}
+header .banner .logo{
+    width: 10%;
+}
+header .banner .title{
+font-family: 'Recursive', sans-serif;
+font-style: italic;
+font-size: 45px;
+font-weight: 400;
+color: #FF7575;
+margin: 0;
+}
+header .banner .describe{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+margin: 0;
+}
+header .icon{
+margin-top: 0.5%;
+}
+.category__listing{
+display: flex;
+align-items: center;
+padding-left: 5rem;
+border-top: 1px solid #4D4D4D;
+}
+.categories{
+display: flex;
+list-style: none;
+}
+.categories__link{
+padding: 0rem 1rem;
+text-decoration: none;
+color:#909090;
+font-family: 'Recursive', sans-serif;
+font-style: italic;
+font-size: 15px;
+}
+header .icon .grid{
+width: 15px;
+}
+header .icon .list{
+width: 15px;    
+}
+.articles{
+width: 1244px;
+display: flex;
+flex-wrap: wrap;
+margin: 111px 219px 115px 219px;
+justify-content: space-between
+}
+.articles_details{
+background-color: #FFFFFF;
+width: 390px;
+height: 400px;
+box-sizing: border-box;
+border: 1px solid #252930;
+border-radius: 22px;
+padding: 20px 20px 20px 20px;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 37px;
+}
+.article_image{
+width: 337.08px;
+height: 160px;
+border-radius: 22px;
+}
+.article_title{
+font-size: 19px;
+font-weight: 600;
+line-height: 23px;
+color: #0F1217;
+}
+.article_description{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+color: #0F1217;
+}
+.article_date{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+color: #0F1217;
+}
+.article_date_1{
+margin-right: 17px;
+}
+.article_date_2{
+font-size: 20px;
+}
+.article_date_3{
+margin-left: 26.5px;
+}
+.pages_links{
+display: flex;
+align-items: center;
+font-family: 'Recursive', sans-serif;
+font-style: italic;
+font-size: 20px;
+color: #919191;
+}
+.pages_links_previews{
+margin: 132px 0px 157px 571px;
+}
+.pages_links_list{
+width: 225px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+margin: 132px 0px 157px 0px;
+}
+.pages_links_list1{
+text-decoration: none;
+color: #919191;
+}
+.pages_links_list1:hover{
+text-decoration: overline 3px solid #FF7575;
+color: #FF7575;
+}
+.pages_links_list2{
+list-style: none;
+}
+.pages_links_next{
+margin: 132px 631px 157px 43px;
+}
+footer{
+display: flex;
+align-items: center;
+border-top: #4D4D4D solid 1px;
+}
+.writing_footer{
+margin: 30px 16px 127px 219px;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.by_footer{
+margin: 30px 900px 127px 0px;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+border-radius: 5px;
+background-color: #4699E0;
+width: 140px;
+height: 25px;
+}
+.twitter_comp{
+margin: 30px 238px 127px 0px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+background-color: #4699E0;
+width: 260px;
+height: 25px;  
+}
+.logo_twitter{
+margin-left: 10px;
+}
+.twitter_acc{
+text-decoration: none;
+color: #FFFFFF;
+}
+.twitter_acc1{
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+margin-left: 5px;
+}
